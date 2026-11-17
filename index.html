@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sravani | Data Engineer</title>
+<meta name="description" content="Sravani, MS Computer Science at Wayne State University. Data engineer building pipelines, streaming systems and AI agents for smart manufacturing.">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f6f8fa; --text: #1f2328; --muted: #59636e;
+    --border: #d1d9e0; --accent: #0969da; --chip: #eaeef2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --surface: #161b22; --text: #e6edf3; --muted: #9198a1;
+      --border: #30363d; --accent: #4493f8; --chip: #21262d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 880px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2.2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.3rem; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin: 0 0 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    display: inline-block; padding: 8px 16px; border-radius: 6px; font-weight: 600;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  }
+  .btn:hover { text-decoration: none; border-color: var(--accent); }
+  ul { padding-left: 1.2rem; }
+  li { margin: 6px 0; }
+  .group { margin: 14px 0; }
+  .group h3 { font-size: .9rem; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { background: var(--chip); border: 1px solid var(--border); border-radius: 999px; padding: 2px 12px; font-size: .85rem; }
+  .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+  .card h3 { margin: 0; font-size: 1.05rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .92rem; flex: 1; }
+  .card .chips { margin-top: 4px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hi, I'm Sravani 👋</h1>
+  <p class="tagline">MS Computer Science @ Wayne State University | Python · Spark · Kafka · Airflow · Docker | Data Engineer</p>
+  <div class="buttons">
+    <a class="btn" href="https://github.com/sravanibet">GitHub</a>
+    <a class="btn" href="mailto:bethellysravani@gmail.com">Email</a>
+  </div>
+
+  <h2>🚀 About Me</h2>
+  <ul>
+    <li>🎓 MS Computer Science at <strong>Wayne State University</strong></li>
+    <li>🔬 Smart-manufacturing AI research (<strong>IntelliMake</strong>): building <strong>autonomous Quality and Design agents</strong> for next-generation smart manufacturing, engineering the real-time MQTT sensor-data pipelines that power them on GCP</li>
+    <li>🔭 Currently building a <strong>real-time streaming lakehouse</strong> (Kafka → Spark Structured Streaming → Delta)</li>
+    <li>💡 Interested in <strong>data engineering, streaming systems, and ML for manufacturing quality</strong></li>
+    <li>📍 Detroit, MI</li>
+  </ul>
+
+  <h2>🛠️ Tech Stack</h2>
+  <div class="group"><h3>Languages</h3><div class="chips">
+    <span class="chip">Python</span><span class="chip">SQL</span></div></div>
+  <div class="group"><h3>Data &amp; Processing</h3><div class="chips">
+    <span class="chip">Apache Spark</span><span class="chip">Kafka</span><span class="chip">Airflow</span><span class="chip">Hive</span><span class="chip">Databricks</span><span class="chip">Delta Lake</span></div></div>
+  <div class="group"><h3>Cloud &amp; DevOps</h3><div class="chips">
+    <span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">GCP</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span></div></div>
+  <div class="group"><h3>Frameworks &amp; ML / AI</h3><div class="chips">
+    <span class="chip">FastAPI</span><span class="chip">Flask</span><span class="chip">React</span><span class="chip">Streamlit</span><span class="chip">scikit-learn</span><span class="chip">XGBoost</span><span class="chip">Ollama</span></div></div>
+
+  <h2>📌 Featured Projects</h2>
+  <div class="cards">
+    <article class="card">
+      <h3><a href="https://github.com/sravanibet/Ecommerce-data-platform">🛒 Ecommerce Data Platform</a></h3>
+      <p>Batch and streaming platform on Docker: CSV → Spark ETL → Parquet + Hive → Airflow DAG → SQL analytics, with a Kafka producer and Prometheus monitoring.</p>
+      <div class="chips"><span class="chip">Spark</span><span class="chip">Hive</span><span class="chip">Airflow</span><span class="chip">Kafka</span><span class="chip">Docker</span></div>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/sravanibet/warranty-risk-pipeline">🏭 Warranty Risk Pipeline</a></h3>
+      <p>Quality Monitoring Agent that predicts vehicle warranty risk from production sensor data (ML ensemble, GA tolerance optimization, LIME explanations).</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">GCP</span></div>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/sravanibet/phishing-website-detection">🛡️ Phishing Website Detection</a></h3>
+      <p>Compared 11 models on 95,910 labeled records, evaluated with precision, recall, F1, and ROC/AUC.</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">XGBoost</span><span class="chip">scikit-learn</span></div>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/sravanibet/warehouse-system">📦 Warehouse Management System</a></h3>
+      <p>Full-stack inventory app with a REST API on DynamoDB and dashboards.</p>
+      <div class="chips"><span class="chip">Flask</span><span class="chip">DynamoDB</span><span class="chip">React</span></div>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/sravanibet/personal_ai-tutor">🎓 ML Tutor Chatbot</a></h3>
+      <p>Local AI tutor with RAG over your own PDF/DOCX notes; Explain, Quiz, and Hint modes.</p>
+      <div class="chips"><span class="chip">Ollama</span><span class="chip">ChromaDB</span><span class="chip">Streamlit</span></div>
+    </article>
+  </div>
+
+  <h2>🔬 Research: IntelliMake (Wayne State University)</h2>
+  <p>Building <strong>intelligent, autonomous Quality and Design agents</strong> for next-generation smart manufacturing, and engineering the real-time MQTT sensor-data pipelines and tested, schema-validated APIs that power them. Includes a Quality Monitoring Agent that predicts vehicle warranty risk with explainable ML, developed in a multi-researcher lab.</p>
+  <ul>
+    <li><strong>Sensor data pipeline:</strong> MQTT/EMQX ingestion of plant sensor data into an LLM-agent platform on GCP</li>
+    <li><strong>Testing:</strong> 40+ PyTest cases covering API contracts, JSON schema validation, boundary conditions, and MQTT reconnect</li>
+  </ul>
+
+  <h2>🎓 Education</h2>
+  <ul><li>🏫 <strong>MS Computer Science</strong>, Wayne State University</li></ul>
+
+  <footer><em>Open to Data Engineering roles</em> · 📧 <a href="mailto:bethellysravani@gmail.com">bethellysravani@gmail.com</a></footer>
+</main>
+</body>
+</html>
