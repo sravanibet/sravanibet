@@ -10,7 +10,7 @@
 ### 🚀 About Me
 
 - 🎓 MS Computer Science at **Wayne State University**
-- 🔬 Smart-manufacturing AI research (**IntelliMake**): **Quality & Design agents**, with MQTT sensor pipelines and LLM agents on GCP
+- 🔬 Smart-manufacturing AI research (**IntelliMake**): building **Quality and Design agents**, with MQTT sensor pipelines and LLM agents on GCP
 - 🔭 Currently building a **real-time streaming lakehouse** (Kafka → Spark Structured Streaming → Delta)
 - 💡 Interested in **data engineering, streaming systems, and ML for manufacturing quality**
 - 📍 Detroit, MI
@@ -65,7 +65,7 @@
 
 ### 🔬 Research: IntelliMake (Wayne State University)
 
-Working on the **Quality Agent** and **Design Agent** for AI-driven smart manufacturing.
+Building **Quality and Design agents** for AI-driven smart manufacturing.
 
 - **Sensor data pipeline:** MQTT/EMQX ingestion of plant sensor data into an LLM-agent platform on GCP
 - **Testing:** 40+ PyTest cases covering API contracts, JSON schema validation, boundary conditions, and MQTT reconnect
