@@ -22,7 +22,6 @@
   <li>🔬 Smart-manufacturing AI research (<b>IntelliMake</b>): building <b>autonomous Quality and Design agents</b> for next-generation smart manufacturing, engineering the real-time MQTT sensor-data pipelines that power them on GCP</li>
   <li>🔭 Currently building a <b>real-time streaming lakehouse</b> (Kafka → Spark Structured Streaming → Delta)</li>
   <li>💡 Interested in <b>data engineering, streaming systems, and ML for manufacturing quality</b></li>
-  <li>📍 Detroit, MI</li>
 </ul>
 
 <hr>
