@@ -78,4 +78,4 @@ Building **intelligent, autonomous Quality and Design agents** for next-generati
 
 ---
 
-_Open to Data Engineering roles_ · 📧 [sb.sravanibethelly@gmail.com](mailto:sb.sravanibethelly@gmail.com)
+_Open to Data Engineering roles_ · 📧 [sb.sravanibethelly@gmail.com](mailto:bethellysravani@gmail.com)
